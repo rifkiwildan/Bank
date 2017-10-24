@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="435.0" prefWidth="374.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="javafxapplication10.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="435.0" prefWidth="374.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication10.FXMLDocumentController">
    <children>
       <Label fx:id="label" layoutX="136.0" layoutY="130.0" minHeight="16" minWidth="69" />
       <Label layoutX="94.0" layoutY="37.0" text="Welcome To Moklet Bank">
@@ -37,18 +37,18 @@
             <RowConstraints maxHeight="59.333343505859375" minHeight="10.0" prefHeight="51.333343505859375" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button fx:id="but1" mnemonicParsing="false" onAction="#satu" prefHeight="30.0" prefWidth="59.0" style="-fx-background-color: black;" text="1" textFill="#fdf9f9" />
-            <Button fx:id="but4" mnemonicParsing="false" onAction="#empat" prefHeight="32.0" prefWidth="60.0" style="-fx-background-color: black;" text="4" textFill="#fbf7f7" GridPane.rowIndex="1" />
-            <Button fx:id="but2" mnemonicParsing="false" onAction="#dua" prefHeight="30.0" prefWidth="59.0" style="-fx-background-color: black;" text="2" textFill="#edeaea" GridPane.columnIndex="1" />
-            <Button fx:id="but3" mnemonicParsing="false" onAction="#tiga" prefHeight="30.0" prefWidth="56.0" style="-fx-background-color: black;" text="3" textFill="#f8f4f4" GridPane.columnIndex="2" />
-            <Button fx:id="but5" mnemonicParsing="false" onAction="#lima" prefHeight="33.0" prefWidth="59.0" style="-fx-background-color: black;" text="5" textFill="#fbf6f6" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button fx:id="but6" mnemonicParsing="false" onAction="#enam" prefHeight="33.0" prefWidth="57.0" style="-fx-background-color: black;" text="6" textFill="#fffafa" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button fx:id="but7" mnemonicParsing="false" onAction="#tujuh" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: black;" text="7" textFill="#fbf4f4" GridPane.rowIndex="2" />
-            <Button fx:id="but8" mnemonicParsing="false" onAction="#lapan" prefHeight="31.0" prefWidth="59.0" style="-fx-background-color: black;" text="8" textFill="#fffdfd" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button fx:id="but9" mnemonicParsing="false" onAction="#sembilan" prefHeight="32.0" prefWidth="57.0" style="-fx-background-color: black;" text="9" textFill="#f2f0f0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <Button fx:id="butc" mnemonicParsing="false" onAction="#c" prefHeight="31.0" prefWidth="59.0" style="-fx-background-color: black;" text="c" textFill="#fdf7f7" GridPane.rowIndex="3" />
-            <Button fx:id="but0" mnemonicParsing="false" prefHeight="29.0" prefWidth="59.0" style="-fx-background-color: black;" text="0" textFill="#fffbfb" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <Button fx:id="oke" mnemonicParsing="false" onAction="#proses" prefHeight="29.0" prefWidth="58.0" style="-fx-background-color: black;" text="OK" textFill="#f4f0f0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="but1" mnemonicParsing="false" onAction="#satu" prefHeight="30.0" prefWidth="82.0" style="-fx-background-color: blue;" text="1" textFill="#fdf9f9" />
+            <Button fx:id="but4" mnemonicParsing="false" onAction="#empat" prefHeight="32.0" prefWidth="81.0" style="-fx-background-color: blue;" text="4" textFill="#fbf7f7" GridPane.rowIndex="1" />
+            <Button fx:id="but2" mnemonicParsing="false" onAction="#dua" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: blue;" text="2" textFill="#edeaea" GridPane.columnIndex="1" />
+            <Button fx:id="but3" mnemonicParsing="false" onAction="#tiga" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: blue;" text="3" textFill="#f8f4f4" GridPane.columnIndex="2" />
+            <Button fx:id="but5" mnemonicParsing="false" onAction="#lima" prefHeight="33.0" prefWidth="79.0" style="-fx-background-color: blue;" text="5" textFill="#fbf6f6" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="but6" mnemonicParsing="false" onAction="#enam" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: blue;" text="6" textFill="#fffafa" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="but7" mnemonicParsing="false" onAction="#tujuh" prefHeight="32.0" prefWidth="80.0" style="-fx-background-color: blue;" text="7" textFill="#fbf4f4" GridPane.rowIndex="2" />
+            <Button fx:id="but8" mnemonicParsing="false" onAction="#lapan" prefHeight="31.0" prefWidth="79.0" style="-fx-background-color: blue;" text="8" textFill="#fffdfd" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="but9" mnemonicParsing="false" onAction="#sembilan" prefHeight="32.0" prefWidth="82.0" style="-fx-background-color: blue;" text="9" textFill="#f2f0f0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="butc" mnemonicParsing="false" onAction="#c" prefHeight="31.0" prefWidth="80.0" style="-fx-background-color: blue;" text="c" textFill="#fdf7f7" GridPane.rowIndex="3" />
+            <Button fx:id="but0" mnemonicParsing="false" prefHeight="29.0" prefWidth="80.0" style="-fx-background-color: blue;" text="0" textFill="#fffbfb" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="oke" mnemonicParsing="false" onAction="#proses" prefHeight="29.0" prefWidth="81.0" style="-fx-background-color: blue;" text="OK" textFill="#f4f0f0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
          </children>
       </GridPane>
       <PasswordField fx:id="editpin" layoutX="89.0" layoutY="105.0" prefHeight="39.0" prefWidth="215.0" />
